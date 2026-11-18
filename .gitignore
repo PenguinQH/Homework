@@ -1,0 +1,31 @@
+﻿# Keil 中间产物
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.lst
+*.dep
+*.iex
+*.sct
+*.lnp
+*.build_log.htm
+*.uvguix.*
+
+# CubeMX 备份
+*.bak
+
+# 编辑器 / 系统
+.vscode/
+Thumbs.db
+desktop.ini
+
+# 保留工程文件
+!*.ioc
+!*.uvprojx
+!*.uvoptx
