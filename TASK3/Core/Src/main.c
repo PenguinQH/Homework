@@ -104,13 +104,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    if (key_flag)
-{
-    HAL_Delay(20);
-    if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == GPIO_PIN_RESET)
-        HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_9);
-    key_flag = 0;
-}
+    
   }
   /* USER CODE END 3 */
 }
